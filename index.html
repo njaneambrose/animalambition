@@ -1,19 +1,47 @@
 <html>
     <head>
 		<title>Animal ambition studios</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     </head>
     <style>
-        body{
-            background-image: url('a.jpg');
-            background-position: center;
-            width: 95%;
-            max-width: 95%;
-            min-height: 500px;
-            background-size: cover;
-			background-repeat: no-repeat;
+        .t1{
+            text-align: center;
+            color: white;
+            font-family: 'Dancing Script','Courier New', Courier, monospace;
+            font-size: 16px;
+            margin-top: 500px;
         }
+        @media(min-width: 1024px){
+            body{
+                background-image: url('images/a.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            } 
+            .t1{
+                margin-top: 530px;
+            }
+        }
+        @media(max-width: 1024px){
+            body{
+                background-image: url('images/c.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            } 
+        }
+        @media(max-width: 360px){
+            body{
+                background-image: url('images/b.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            } 
+        }
+        
     </style>
     <body>
+        <p class="t1">Designed by Sophie n' sonia</p>
     </body>
 </html>
